@@ -1,0 +1,12 @@
+body{
+    /* width: 100%; */
+    background-color: rgb(240, 248, 121);
+}
+.back{
+    font-size: 20px;
+    padding: 10px 35px;
+    border-radius: 5px;
+    background-color:deeppink;
+    color: rgb(241, 230, 230);
+    cursor: pointer;
+}
