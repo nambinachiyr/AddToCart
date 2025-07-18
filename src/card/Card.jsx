@@ -1,5 +1,6 @@
 
 import "./cardStyle.css";
+import Imgcart from "/src/asset/shopping-cart (1).png"
 
 function Card({item,onclick}) {
     // console.log(item)
@@ -20,7 +21,7 @@ function Card({item,onclick}) {
                      <span className="cnt">{item.rating.count}</span>
                 </p>
             </div>
-            <img onClick={()=>onclick(item)} className="cartImg" src="\src\shopping-cart (1).png" alt="" width={30}/>
+            <img onClick={()=>onclick(item)} className="cartImg" src={Imgcart} alt="" width={30}/>
        </div>
     </>
    
