@@ -1,4 +1,4 @@
-import React, { captureOwnerStack, useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Card from './card/Card.jsx'
 import Header from './Header/Header.jsx'
 import Cart from './cart/Cart.jsx';

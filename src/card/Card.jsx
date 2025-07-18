@@ -20,7 +20,7 @@ function Card({item,onclick}) {
                      <span className="cnt">{item.rating.count}</span>
                 </p>
             </div>
-            <img onClick={()=>onclick(item)} className="cartImg" src="./src\asset\shopping-cart (1).png" alt="" width={30}/>
+            <img onClick={()=>onclick(item)} className="cartImg" src="\src\asset\shopping-cart (1).png" alt="" width={30}/>
        </div>
     </>
    
