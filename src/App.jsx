@@ -1,7 +1,7 @@
 import React, { captureOwnerStack, useEffect, useState } from 'react'
-import Card from './card/card'
-import Header from './Header/Header'
-import Cart from './cart/Cart';
+import Card from './card/Card.jsx'
+import Header from './Header/Header.jsx'
+import Cart from './cart/Cart.jsx';
 import './app.css'
 
 
